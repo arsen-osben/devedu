@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework</title>
+</head>
+<body>
+<script>
+    let n,m,p, summ = 0;
+    n = prompt('Input N:');
+    m = prompt('Input M:');
+    p = prompt('Input odd parametr', 'true');
+    
+    n = parseInt(n);
+    m = parseInt(m);
+    for (let i = n; i <= m ; i++) {
+        if (p === 'true') {
+            if (!((i % 2) === 0)) {
+                summ = summ + i;
+            }
+        }
+        else {
+            summ = summ + i;
+        }        
+    }
+    console.log('=== ', summ);
+</script>
+</body>
+</html>

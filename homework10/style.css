@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+}
+.container-wrapper {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-btns {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.list-btns li {
+    padding: 0 15px;
+}
+.list-btns .btn {
+    font-size: 30px;
+    padding: 5px;
+}
+.list-btns .btn:focus, .list-btns .btn:active {
+    outline: none;
+}
+.list-btns .active {
+    box-shadow: 0 0 6px gray;
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.timer-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 15px 0;
+}
+
+.timer-reset, .timer-toggle {
+  width: 35%;
+  height: 30px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid blue;
+  color: blue;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.timer-wrapper {
+  padding: 2px;
+  border-radius: 10px;
+  border: 1px solid blue;
+}
+.timer-line {
+  height: 30px;
+  border-radius: 10px;
+  background: blue;
+  
+}

@@ -1,4 +1,3 @@
-import Timer from "./components/Timer";
 import TimerClass from "./components/TimerClass";
 
 function App() {

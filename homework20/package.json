@@ -2,7 +2,7 @@
   "name": "homework20",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://arsen-osben.github.io/devedu/homework20/",
+  "homepage": "/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

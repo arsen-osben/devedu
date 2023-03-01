@@ -1,4 +1,4 @@
-const Home = () => {
+const NoPage = () => {
     return (
         <div className="container">
             <h1>Такой страницы нет</h1>
@@ -6,4 +6,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default NoPage;
